@@ -1,6 +1,7 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
 
-import { Test } from "./pages/test/test";
+import { ROUTER_PATH } from "./constants/router-path";
+import { UserManagement } from "./pages/user-management";
 import App from "./App";
 
 const router = createBrowserRouter([
@@ -9,12 +10,12 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "test",
-        element: <Test />,
+        path: ROUTER_PATH.USER_MANAGEMENT,
+        element: <UserManagement />,
       },
     ],
   },
-  { path: "*", element: <Navigate to={"/"} replace /> },
+  { path: "*", element: <Navigate to={ROUTER_PATH.USER_MANAGEMENT} replace /> },
 ]);
 
 export default router;

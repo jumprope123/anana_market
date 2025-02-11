@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5px 10px;
+  background-color: #616161eb;
+  border-radius: 5px;
+  color: white;
+}

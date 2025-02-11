@@ -11,7 +11,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ag-grid-community/client-side-row-model": "^32.3.3",
+    "@ag-grid-community/core": "^32.3.3",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.4",
+    "@mui/styled-engine": "^6.4.3",
     "@supabase/supabase-js": "^2.48.1",
+    "ag-grid-community": "^33.1.0",
+    "ag-grid-react": "^33.1.0",
     "axios": "^1.7.9",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
